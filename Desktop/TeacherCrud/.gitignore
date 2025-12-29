@@ -1,0 +1,17 @@
+# Maven output (Build results)
+target/
+
+# IDE settings (Personal settings, not for sharing)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# Mac OS System file (Useless for project)
+.DS_Store
+
+# Logs
+*.log
