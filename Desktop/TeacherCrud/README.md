@@ -5,34 +5,6 @@ Open your terminal in this folder and run:
 ```bash
 mvn spring-boot:run
 ```
-*(Make sure you have Java and Maven installed)*
-
----
-
-## Project Structure Explained
-
-TeacherCrud
-├── pom.xml                     <-- Maven configuration (Dependencies like Spring Web, H2, JSP)
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.example.teachermanagement
-│   │   │       ├── TeacherApplication.java          <-- Main entry point (Starts the App)
-│   │   │       ├── model
-│   │   │       │   └── Teacher.java                 <-- Database Table Structure (Entity)
-│   │   │       ├── repository
-│   │   │       │   └── TeacherRepository.java       <-- Database Tools (Save, Delete, Find)
-│   │   │       └── controller
-│   │   │           └── TeacherController.java       <-- Traffic Cop (Handles URL requests)
-│   │   ├── resources
-│   │   │   └── application.properties               <-- Settings (Port, DB, JSP path)
-│   │   └── webapp
-│   │       └── WEB-INF
-│   │           └── jsp
-│   │               ├── teachers.jsp                 <-- Main Page (List of Teachers)
-│   │               ├── edit_teacher.jsp             <-- Edit Page
-│   │               └── delete_confirm.jsp           <-- Delete Confirmation Page
-```
 
 ## Detailed Explanation
 
